@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="">
+      <style>
+        .business-card {
+          display: flex;
+          background-color: white;
+          width: 800px;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+        }
+
+        .logo {
+          flex: 1;
+          background-color: #f9f9f9;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+        }
+
+        .logo img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        .right {
+          background-color: #002e5b;
+          display: flex;
+          flex-direction: cols;
+          border-top-left-radius: 250px;
+          border-bottom-left-radius: 250px;
+          padding: 20px 50px 20px 10px;
+        }
+
+        .profile {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+        }
+
+        .profile img {
+          border-radius: 50%;
+          width: 250px;
+          height: 250px;
+          object-fit: cover;
+        }
+
+        .details {
+          flex: 2;
+          padding: 20px;
+
+          color: white;
+        }
+
+        .details h1 {
+          font-size: 1.5em;
+          margin-bottom: 10px;
+        }
+
+        .details h2 {
+          font-size: 1.2em;
+          margin-bottom: 10px;
+        }
+
+        .details p {
+          margin-bottom: 10px;
+        }
+
+        .contact {
+          margin-bottom: 20px;
+        }
+        .contact a {
+          color: white;
+          text-decoration: none;
+        }
+
+        .icons {
+          display: flex;
+          gap: 20px;
+          margin-bottom: 20px;
+        }
+
+        .icon {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: white;
+        }
+
+        .icon img {
+          width: 40px;
+          height: 40px;
+        }
+
+        .icon button {
+          background-color: #ffffff;
+          color: #002e5b;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 100px;
+          cursor: pointer;
+        }
+
+        .icon button:hover {
+          background-color: #d4d4d4;
+        }
+
+        .social {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+        }
+
+        .social img {
+          width: 30px;
+          height: 30px;
+        }
+      </style>
+
+      <div class="business-card">
+        <div class="logo">
+          <img
+            src="https://1drv.ms/i/c/25ed300ed6b8d19b/EUDGzB_sGz9Jm_dswJ9jsxUBDNQRYYONlWqJPZ-hTyqnXA?e=s5WdX1"
+            alt="VIA Lending Logo"
+          />
+        </div>
+        <div class="right">
+          <div class="profile">
+            <img
+              src="https://drive.usercontent.google.com/download?id=138mS7CwUROg5_Hd8gyGtj-vYUeuFYyo4&authuser=0"
+              alt="Phillipe Bulicich"
+            />
+          </div>
+          <div class="details">
+            <h1>Mohammed Seid</h1>
+            <h2>CEO</h2>
+            <p>NMLS: 1849043</p>
+            <p class="contact">
+              <span>📞 <a href="tel:786-451-8098">+251-910-87-1994</a></span
+              ><br />
+              <span
+                >📧
+                <a href="mailto:mohammedseid635@gmail.com"
+                  >mohammedseid635@gmail.com</a
+                ></span
+              >
+            </p>
+            <div class="icons">
+              <div class="icon">
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1OPWzbJYx6CewtD8Faka_8hvl9U0ARmST"
+                  alt="House Icon"
+                />
+                <button>Apply</button>
+              </div>
+              <div class="icon">
+                <img
+                  src="https://drive.google.com/file/d/1FQeX4PQRP6LIvdCNHUNJh3ih-MK7iz54/view?usp=drive_link"
+                  alt="Person Icon"
+                />
+                <button>Apply</button>
+              </div>
+            </div>
+            <div class="social">
+              <img
+                src="https://1drv.ms/u/c/25ed300ed6b8d19b/EWnr4BEf27pLj_magkSaO_MBR4V_5SOFKiqtk3suCERVng?e=IAE5aK"
+                alt="LinkedIn Icon"
+              />
+              <img
+                src="https://drive.google.com/file/d/1iIPM60Y2y3yuhDkY4RYZ_0wIfMbsNWlq/view?usp=drive_link"
+                alt="Instagram Icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
